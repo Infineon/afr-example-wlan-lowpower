@@ -4,6 +4,8 @@ This code example demonstrates the low-power operation of the PSoC 6 MCU (host) 
 
 The code example connects to a configured Wi-Fi network. After connecting to the network successfully, the example configures the WLAN device in a power save mode, suspends the network stack, and puts the host MCU in a wait state. During this wait state, the host MCU enters a low-power state and wakes up on any network activity detected between the host MCU and the WLAN device.
 
+[Provide feedback on this Code Example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzA0ODMiLCJTcGVjIE51bWJlciI6IjAwMi0zMDQ4MyIsIkRvYyBUaXRsZSI6IkFXUyBJb1QgYW5kIEZyZWVSVE9TIGZvciBQU29DIDYgTUNVOiBXTEFOIExvdyBQb3dlciIsInJpZCI6InByYWgiLCJEb2MgdmVyc2lvbiI6IjEuMS4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
+
 ## Requirements
 
 - [ModusToolbox v2.1](https://www.cypress.com/documentation/software-and-drivers/modustoolbox-software-archives)
@@ -515,6 +517,7 @@ Document Title: *CE230483 - AWS IoT and FreeRTOS for PSoC 6: WLAN Low Power*
 | Version | Description of Change |
 | ------- | --------------------- |
 | 1.0.0   | New code example      |
+| 1.1.0   | Removed unwanted design files |
 
 ------
 
